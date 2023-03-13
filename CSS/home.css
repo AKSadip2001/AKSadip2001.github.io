@@ -1,0 +1,89 @@
+.home {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    min-height: 90vh;
+    align-items: center;
+  }
+  
+  .home .content {
+    width: 38em;
+  }
+  .home .image {
+    width: 25em;
+  }
+  
+  .home .image img {
+    width: 25em;
+    border-radius: 50%;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+  }
+  
+  .home .content h2 {
+    font-size: 4rem;
+    font-weight: 800;
+    color: #002057;
+  }
+  .home .content h2 span {
+    font-size: 5rem;
+    font-weight: 800;
+    color: #ff7b00;
+  }
+  .home .btn {
+    margin-top: 1rem;
+    position: absolute;
+    padding: 1.6rem 3rem;
+    border-radius: 4em;
+    color: #fff;
+    background: #2506ad;
+    box-shadow: 0px 5px 18px rgba(48, 68, 247, 0.6);
+    text-decoration: none;
+  }
+  .home .btn span {
+    font-weight: 700;
+    font-size: 1.7rem;
+  }
+  .home .btn i {
+    margin-left: 0.3rem;
+    font-size: 1.5rem;
+  }
+  .home .btn:hover {
+    background: #1a047e;
+    transition: 0.5s;
+  }
+  
+  .socials {
+    position: relative;
+    margin-top: 9rem;
+  }
+  .socials .social-icons {
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+  }
+  .socials .social-icons li {
+    display: inline-block;
+    margin-bottom: 14px;
+  }
+  .social-icons a {
+    font-size: 2rem;
+    display: inline-block;
+    color: #fff;
+    background-color: #09011b;
+    width: 1.4em;
+    height: 1.4em;
+    text-align: center;
+    margin-right: 8px;
+    border-radius: 100%;
+  }
+  
+  .social-icons a.github:hover {
+    background-color: gray;
+  }
+  .social-icons a.linkedin:hover {
+    background-color: #007bb6;
+  }
+  .social-icons a.instagram:hover {
+    background-color: #ee00da;
+  }

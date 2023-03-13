@@ -1,0 +1,62 @@
+.experience .container{
+  width: 90%;
+  padding-bottom: 2rem;
+}
+
+.experience .heading{
+  padding-bottom: 3rem;
+  text-align: center;
+  font-size: xx-large;
+}
+
+.experience .content{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  min-height: 70vh;
+}
+
+.experience .content .left_content{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.experience .content .vl{
+  border: 0.1rem solid black;
+  background-color: #000;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  border-radius: 1rem;
+}
+
+.circle {
+  border-radius: 50%;
+  width: 0.6rem;
+  height: 0.6rem;
+  background-color: orange;
+ }
+
+.experience .content .right_content{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
+.experience .content .content_card{
+  padding: 2rem;
+  border: 0.2rem solid black;
+  border-radius: 0.5rem;
+  margin: 0.5rem;
+  box-shadow: 0.25rem 0.25rem 0.25rem 0.25rem rgb(27, 27, 27);
+}
+
+.experience .content .content_card h3{
+  font-size: 1.5rem;
+}
+
+.experience .content .content_card ul{
+  padding: 1rem;
+}

@@ -1,0 +1,82 @@
+.about {
+    min-height: 90vh;
+    background-color: rgb(245, 245, 245);
+    padding: 12.5vh 4rem;
+  }
+  
+  .about .heading{
+    font-size: xx-large;
+    margin-bottom: 3rem;
+  }
+  
+  
+  .about .row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 4rem;
+  }
+  .about .row .image {
+    text-align: center;
+  }
+  .about .row .image img {
+    width: 30rem;
+    height: auto;
+    border-radius: 5%;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.6);
+  }
+  
+  .about .row .content h3 {
+    color: rgb(27, 27, 27);
+    font-size: 2.5rem;
+  }
+  .about .row .content .tag {
+    font-size: 1.4rem;
+    color: #020133;
+    font-weight: 500;
+    margin-top: 1rem;
+  }
+  .about .row .content p {
+    font-size: 1.5rem;
+    margin-top: 1.5rem;
+    text-transform: none;
+  }
+  .about .row .content .box-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 1.5rem;
+    font-weight: 500;
+  }
+  .about .row .content .box-container .box p {
+    text-transform: none;
+  }
+  .about .row .content .box-container .box p span {
+    color: #011aff;
+  }
+  .resumebtn {
+    margin-top: 2rem;
+  }
+  
+  .resumebtn .btn {
+    padding: 1rem 2rem;
+    border-radius: 0.5em;
+    color: #fff;
+    background: #2506ad;
+    box-shadow: 0px 5px 10px rgba(48, 68, 247, 0.6);
+    text-decoration: none;
+  }
+  .resumebtn .btn span {
+    font-weight: 600;
+    font-size: 1.8rem;
+    letter-spacing: 0.1rem;
+  
+  }
+  .resumebtn .btn i {
+    margin-left: 0.3rem;
+    font-size: 1.2rem;
+    
+  }
+  .resumebtn .btn:hover {
+    background: #1a047e;
+  }

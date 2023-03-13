@@ -1,0 +1,102 @@
+.project {
+    background-color: #fc8c05;
+    min-height: 90vh;
+    padding: 12.5vh 4rem;
+  }
+  .project h2 {
+    color: #fff;
+    padding-bottom: 3rem;
+    text-align: center;
+    font-size: xx-large;
+  }
+  .project .heading span {
+    color: rgb(255, 230, 0);
+  }
+  
+  .project .viewall {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .articles{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 3rem 4rem;
+  }
+  
+  .articles .card{
+    width: 25%;
+    background-color: #ededed;
+    border-radius: 0.75rem;
+    box-shadow: 0.15rem 0.15rem 0.15rem 0.15rem rgba(0,0,0,0.3);
+  }
+  
+  .articles .card:hover{
+    box-shadow: 0.3rem 0.3rem 0.3rem 0.3rem rgba(0,0,0,0.3);
+  }
+  
+  .articles .card .contain_img {
+    background-color: black;
+    border-radius: 0.75rem 0.75rem 0 0;
+    height: 12rem;
+  }
+  
+  
+  .articles .card .contain_img img{
+    width: 100%;
+    height: 100%;
+    border-radius: 0.75rem 0.75rem 0 0;
+    opacity: 0.8;
+    object-fit: fill;
+  }
+  
+  .articles .card .contain_img img:hover{
+    opacity: 1;
+  }
+  
+  
+  .articles .card .container{
+    padding: 1rem;
+  }
+  
+  .articles .card .container h3{
+    margin-bottom: 0.3rem;
+  }
+  
+  .articles .card .container p.sub_heading{
+    margin-bottom: 1rem;
+    font-style: italic;
+  }
+  
+  .articles .card .container p.project_des{
+    margin-bottom: 1rem;
+    font-weight: 1.1rem;
+  }
+  
+  .woprojectrk .viewall {
+    display: flex;
+    justify-content: center;
+  }
+  .project .viewall .btn {
+    padding: 1rem 1.5rem;
+    border-radius: 0.5em;
+    transition: 0.5s;
+    color: rgb(255, 255, 255);
+    border: 2px solid #fff;
+    box-shadow: 0px 5px 10px rgba(65, 84, 241, 0.4);
+    text-align: center;
+    text-decoration: none;
+  }
+  .project .viewall .btn span {
+    font-weight: 600;
+    font-size: 1.5rem;
+  }
+  .project .viewall .btn:hover {
+    background: #fff;
+    color: #000;
+  }
+  
+  .education-timeline{
+      max-width: 100ch;
+      
+  }
