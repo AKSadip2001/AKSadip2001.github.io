@@ -20,12 +20,14 @@
   
   .articles{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
-    padding: 3rem 4rem;
+    padding: 3rem 0;
+    gap: 1.5rem;
   }
   
   .articles .card{
-    width: 25%;
+    width: 20rem;
     background-color: #ededed;
     border-radius: 0.75rem;
     box-shadow: 0.15rem 0.15rem 0.15rem 0.15rem rgba(0,0,0,0.3);
@@ -33,6 +35,7 @@
   
   .articles .card:hover{
     box-shadow: 0.3rem 0.3rem 0.3rem 0.3rem rgba(0,0,0,0.3);
+    transition: 0.3s;
   }
   
   .articles .card .contain_img {
@@ -52,6 +55,7 @@
   
   .articles .card .contain_img img:hover{
     opacity: 1;
+    transition: 0.3s;
   }
   
   

@@ -1,3 +1,10 @@
+.experience{
+  display: flex;
+  justify-content: center;
+  background-color: lightgoldenrodyellow;
+  padding: 12.5vh 4rem;
+}
+
 .experience .container{
   width: 90%;
   padding-bottom: 2rem;
@@ -59,4 +66,24 @@
 
 .experience .content .content_card ul{
   padding: 1rem;
+}
+
+@media (max-width: 1250px){
+  .experience .content{
+    flex-direction: column;
+  }
+
+  .circle{
+    width: 0;
+    height: 0;
+  }
+
+  .experience .content .vl{
+    border: none;
+  }
+
+  .experience .content .content_card{
+    margin-bottom: 1.5rem;
+  }
+
 }
