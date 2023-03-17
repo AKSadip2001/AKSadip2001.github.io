@@ -1,16 +1,15 @@
 .project {
-    background-color: #fc8c05;
+    background-color: #e5ecfb;
     min-height: 90vh;
     padding: 12.5vh 4rem;
   }
   .project h2 {
-    color: #fff;
-    padding-bottom: 3rem;
+    color: #2506ad;
     text-align: center;
     font-size: xx-large;
   }
   .project .heading span {
-    color: rgb(255, 230, 0);
+    color: rgb(255, 149, 0);
   }
   
   .project .viewall {
@@ -85,6 +84,7 @@
     padding: 1rem 1.5rem;
     border-radius: 0.5em;
     transition: 0.5s;
+    background-color: #020068;
     color: rgb(255, 255, 255);
     border: 2px solid #fff;
     box-shadow: 0px 5px 10px rgba(65, 84, 241, 0.4);

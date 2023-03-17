@@ -1,12 +1,11 @@
 .experience{
   display: flex;
   justify-content: center;
-  background-color: lightgoldenrodyellow;
-  padding: 12.5vh 4rem;
+  background-color: white;
+  padding: 12.5vh 0rem;
 }
 
 .experience .container{
-  width: 90%;
   padding-bottom: 2rem;
 }
 
@@ -18,7 +17,6 @@
 
 .experience .content{
   display: flex;
-  flex-direction: row;
   justify-content: space-around;
   min-height: 70vh;
 }
@@ -27,6 +25,7 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  min-width: 30%;
 }
 
 .experience .content .vl{
@@ -38,42 +37,60 @@
   border-radius: 1rem;
 }
 
-.circle {
+
+.experience .content .vl .vl_container{
+  height: 33%;
+  display: flex;
+  align-items: center;
+}
+
+.experience .content .vl .vl_container .circle {
   border-radius: 50%;
   width: 0.6rem;
   height: 0.6rem;
-  background-color: orange;
+  background-color: white;
  }
 
 .experience .content .right_content{
   display: flex;
   flex-direction: column;
   justify-content: center;
+  min-width: 30%;
 }
 
 
 .experience .content .content_card{
-  padding: 2rem;
-  border: 0.2rem solid black;
+  background-color: #e5ecfb;
+  min-height: 33%;
+  padding: 0.5rem 1rem;
+  border: 0.1rem solid black;
   border-radius: 0.5rem;
-  margin: 0.5rem;
-  box-shadow: 0.25rem 0.25rem 0.25rem 0.25rem rgb(27, 27, 27);
+  box-shadow: 0.1rem 0.1rem 0.1rem 0.1rem rgb(27, 27, 27);
 }
 
 .experience .content .content_card h3{
-  font-size: 1.5rem;
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+
+.experience .content .content_card h4{
+  font-size: 1rem;
 }
 
 .experience .content .content_card ul{
-  padding: 1rem;
+  padding: 0.5rem 0 0 1rem;
 }
 
-@media (max-width: 1250px){
+@media (max-width: 1200px){
   .experience .content{
     flex-direction: column;
   }
 
-  .circle{
+  .experience .content .vl .vl_container{
+    height: 0;
+  }
+
+  .experience .content .vl .vl_container .circle{
     width: 0;
     height: 0;
   }
