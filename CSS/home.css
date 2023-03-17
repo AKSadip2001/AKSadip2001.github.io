@@ -92,3 +92,9 @@
     background-color: #ee00da;
     transition: 0.3s;
   }
+
+  @media (max-width: 450px) {
+    .home .image img {
+      width: 100%;
+    }
+  }

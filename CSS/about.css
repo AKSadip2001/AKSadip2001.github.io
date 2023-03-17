@@ -38,7 +38,13 @@
     font-size: 1.5rem;
     margin-top: 1.5rem;
     text-transform: none;
+    word-spacing: 0.1rem;
   }
+
+  .about .main_container .content span{
+    font-weight: 600;
+  }
+
   .about .main_container .content .box-container {
     display: flex;
     justify-content: space-between;
@@ -116,6 +122,10 @@
     .about .main_container .content .box-container {
       flex-direction: main_container;
       gap: 0rem;
+    }
+
+    .about .main_container .image img {
+      width: 100%;
     }
   }
 
