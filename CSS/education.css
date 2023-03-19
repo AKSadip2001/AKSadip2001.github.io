@@ -1,69 +1,74 @@
 .education {
-    background: rgb(245, 245, 245);
-    min-height: 90vh;
-    padding: 12.5vh 0;
-  }
-  
-  .education .heading{
-    font-size: xx-large;
-    padding-bottom: 3rem;
-    text-align: center;
-  }
-  
-  .education .box-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-  }
-  .education .box-container .box {
-    display: flex;
-    align-items: center;
-    position: relative;
-    gap: 2rem;
-    width: 55%;
-    border-radius: 0.5rem;
-    box-shadow: 0.2rem 0.5rem 1rem rgba(0, 0, 0, 0.2);
-    margin-bottom: 2rem;
-    background: rgb(252, 252, 252);
-  }
-  
-  .education .box-container .box .image {
-    width: 8rem;
-    margin: 0.5rem;
-  }
-  .education .box-container .box img {
-    object-fit: contain;
-    width: 100%;
-  }
-  
-  .education .box-container .box .content {
-    display: flex;
-    flex-direction: column;
-  }
-  .education .box-container .box .content h3 {
-    font-size: 1.5rem;
-    color: #012970;
-    font-weight: 600;
-    text-align: left;
-  }
-  .education .box-container .box .content p {
-    font-size: 1.3rem;
-    text-align: left;
-  }
-  .education h4 {
-    font-size: 1rem;
-    color: rgb(34, 109, 0);
-    text-align: left;
-    font-weight: 700;
-  }
+  background: rgb(245, 245, 245);
+  min-height: 90vh;
+  padding: 12.5vh 0;
+}
 
-  @media (max-width: 1050px){
-    .education .box-container .box {
-      flex-direction: column;
-      align-items: start;
-      padding: 0.5rem 2.25rem;
-      width: 60%;
-      gap: 1rem;
-    }
+.education .heading{
+  font-size: xx-large;
+  padding-bottom: 3rem;
+  text-align: center;
+}
+
+.education .box-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.education .box-container .box {
+  display: flex;
+  align-items: center;
+  position: relative;
+  gap: 2rem;
+  width: 55%;
+  border-radius: 0.5rem;
+  box-shadow: 0.2rem 0.5rem 1rem rgba(0, 0, 0, 0.2);
+  margin-bottom: 2rem;
+  background: rgb(252, 252, 252);
+}
+
+.education .box-container .box .image {
+  width: 8rem;
+  margin: 0.5rem;
+}
+
+.education .box-container .box img {
+  object-fit: contain;
+  width: 100%;
+}
+
+.education .box-container .box .content {
+  display: flex;
+  flex-direction: column;
+}
+
+.education .box-container .box .content h3 {
+  font-size: 1.5rem;
+  color: #012970;
+  font-weight: 600;
+  text-align: left;
+}
+
+.education .box-container .box .content p {
+  font-size: 1.3rem;
+  text-align: left;
+}
+
+.education h4 {
+  font-size: 1rem;
+  color: rgb(34, 109, 0);
+  text-align: left;
+  font-weight: 700;
+}
+
+@media (max-width: 1050px){
+  .education .box-container .box {
+    flex-direction: column;
+    align-items: start;
+    padding: 0.5rem 2.25rem;
+    width: 60%;
+    gap: 1rem;
   }
+}

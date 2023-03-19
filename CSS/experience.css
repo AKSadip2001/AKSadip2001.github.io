@@ -24,32 +24,36 @@
 .experience .content .left_content{
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: space-around;
   min-width: 30%;
 }
 
-.experience .content .vl{
-  border: 0.1rem solid black;
-  background-color: #000;
+.experience .content .center_content{
+  display: flex;
+}
+
+.experience .content .center_content .left_arrow{
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+}
+
+.experience .content .center_content .vl{
+  background-color: navy;
   border-radius: 1rem;
+  width: 0.75rem;
 }
 
+.experience .content .center_content i{
+  font-size: 3rem;
+  color: navy;
+}
 
-.experience .content .vl .vl_container{
-  height: 33%;
+.experience .content .center_content .right_arrow{
   display: flex;
-  align-items: center;
+  flex-direction: column;
+  justify-content: center;
 }
-
-.experience .content .vl .vl_container .circle {
-  border-radius: 50%;
-  width: 0.6rem;
-  height: 0.6rem;
-  background-color: white;
- }
 
 .experience .content .right_content{
   display: flex;
@@ -58,11 +62,10 @@
   min-width: 30%;
 }
 
-
 .experience .content .content_card{
   background-color: #e5ecfb;
   min-height: 33%;
-  padding: 0.5rem 1rem;
+  padding: 1rem 1rem;
   border: 0.1rem solid black;
   border-radius: 0.5rem;
   box-shadow: 0.1rem 0.1rem 0.1rem 0.1rem rgb(27, 27, 27);
@@ -78,7 +81,9 @@
 }
 
 .experience .content .content_card ul{
-  padding: 0.5rem 0 0 1rem;
+  padding: 1rem 0 0 1rem;
+  font-size: 1rem;
+  margin-bottom: 0;
 }
 
 @media (max-width: 1200px){
@@ -86,21 +91,13 @@
     flex-direction: column;
   }
 
-  .experience .content .vl .vl_container{
-    height: 0;
-  }
-
-  .experience .content .vl .vl_container .circle{
+  .experience .content .center_content{
+    visibility: hidden;
     width: 0;
     height: 0;
-  }
-
-  .experience .content .vl{
-    border: none;
   }
 
   .experience .content .content_card{
     margin-bottom: 1.5rem;
   }
-
 }
