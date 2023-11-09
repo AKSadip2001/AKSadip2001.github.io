@@ -1,68 +1,68 @@
-.experience{
+.experience {
   display: flex;
   justify-content: center;
   background-color: white;
   padding: 12.5vh 0rem;
 }
 
-.experience .container{
+.experience .container {
   padding-bottom: 2rem;
 }
 
-.experience .heading{
+.experience .heading {
   padding-bottom: 3rem;
   text-align: center;
   font-size: xx-large;
 }
 
-.experience .content{
+.experience .content {
   display: flex;
   justify-content: space-around;
   min-height: 70vh;
 }
 
-.experience .content .left_content{
+.experience .content .left_content {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  min-width: 30%;
+  width: 40%;
 }
 
-.experience .content .center_content{
+.experience .content .center_content {
   display: flex;
 }
 
-.experience .content .center_content .left_arrow{
+.experience .content .center_content .left_arrow {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
 }
 
-.experience .content .center_content .vl{
+.experience .content .center_content .vl {
   background-color: navy;
   border-radius: 1rem;
   width: 0.75rem;
 }
 
-.experience .content .center_content i{
+.experience .content .center_content i {
   font-size: 3rem;
   color: navy;
 }
 
-.experience .content .center_content .right_arrow{
+.experience .content .center_content .right_arrow {
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
 
-.experience .content .right_content{
+.experience .content .right_content {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  min-width: 30%;
+  width: 40%;
 }
 
-.experience .content .content_card{
+.experience .content .content_card {
   background-color: #e5ecfb;
   min-height: 33%;
   padding: 1rem 1rem;
@@ -71,33 +71,39 @@
   box-shadow: 0.1rem 0.1rem 0.1rem 0.1rem rgb(27, 27, 27);
 }
 
-.experience .content .content_card h3{
+.experience .content .content_card h3 {
   font-size: 1.25rem;
   font-weight: 700;
 }
 
-.experience .content .content_card h4{
+.experience .content .content_card h4 {
   font-size: 1rem;
 }
 
-.experience .content .content_card ul{
+.experience .content .content_card ul {
   padding: 1rem 0 0 1rem;
   font-size: 1rem;
   margin-bottom: 0;
 }
 
-@media (max-width: 1200px){
-  .experience .content{
+@media (max-width: 1200px) {
+  .experience .content {
     flex-direction: column;
+    align-items: center;
   }
 
-  .experience .content .center_content{
+  .experience .content .left_content,
+  .experience .content .right_content {
+    width: 80%;
+  }
+
+  .experience .content .center_content {
     visibility: hidden;
     width: 0;
     height: 0;
   }
 
-  .experience .content .content_card{
+  .experience .content .content_card {
     margin-bottom: 1.5rem;
   }
 }
